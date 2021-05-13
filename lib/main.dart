@@ -56,16 +56,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Center(
                   child: Container(
                     decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          Colors.white,
-                          Colors.red,
-                        ],
-                        begin: FractionalOffset(
-                            0.5 * snapshot.data.x, 0.5 * snapshot.data.y),
-                        end: FractionalOffset(
-                            -0.5 * snapshot.data.x, -0.5 * snapshot.data.y),
-                      ),
+                      // gradient: LinearGradient(
+                      //   colors: [
+                      //     Colors.white,
+                      //     Colors.red,
+                      //   ],
+                      //   begin:
+                      //       Alignment(1 * snapshot.data.x, 1 * snapshot.data.y),
+                      //   end: Alignment(
+                      //       -1 * snapshot.data.x, -1 * snapshot.data.y),
+                      // ),
                       borderRadius: BorderRadius.all(Radius.circular(10.0)),
                       color: Colors.red,
                       boxShadow: [
